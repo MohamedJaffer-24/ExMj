@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ExMj-mac' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ExMj-mac
+	pod 'CocoaLumberjack/Swift'
+end
+
+target 'ExMj_ios' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ExMj_ios
+	pod 'CocoaLumberjack/Swift'
+end

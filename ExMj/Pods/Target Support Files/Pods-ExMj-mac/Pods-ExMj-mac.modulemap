@@ -1,0 +1,6 @@
+framework module Pods_ExMj_mac {
+  umbrella header "Pods-ExMj-mac-umbrella.h"
+
+  export *
+  module * { export * }
+}
