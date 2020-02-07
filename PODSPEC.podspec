@@ -2,10 +2,10 @@
 Pod::Spec.new do |spec|
   spec.name         = "PODSPEC"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of PODSPEC."
-
+  spec.summary      = "A suummary to help"
+  spec.swift_version = "5.2"
   spec.description  = <<-DESC
-  'My description is here...'
+  'My description is here...See below ...I didnt write'
                    DESC
   spec.homepage     = "https://github.com/MohamedJaffer-24/ExMj"
   spec.license      = "MIT"
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
    spec.ios.deployment_target = "8.0"
    spec.osx.deployment_target = "10.10"
   spec.source       = { :git => "https://github.com/MohamedJaffer-24/ExMj.git", :tag => "#{spec.version}" }
-  spec.source_files  = "ExMj/**/*.{h,m}"
+  spec.source_files  = "ExMj/**/*.{h,m,swift}"
   # spec.public_header_files = "Classes/**/*.h"
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
