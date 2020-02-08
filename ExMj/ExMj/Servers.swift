@@ -10,7 +10,7 @@ import CocoaLumberjack
 public class Servers {
     
     public static func printer(){
-        DDLogMessage()
+        _ = DDLogMessage()
         print("FVFVGVGVG")
     }
 }
