@@ -14,9 +14,7 @@ Pod::Spec.new do |spec|
  spec.osx.deployment_target = "10.10"
  spec.source       = { :git => 'https://github.com/MohamedJaffer-24/ExMj.git', :tag => '0.0.4' }
  spec.source_files  = "ExMj/**/*.{swift,h,m}"
- 
- spec.requires_arc = true
- # spec.dependency 'CocoaLumberjack/Swift', '3.6.1'
+  # spec.dependency 'CocoaLumberjack/Swift', '3.6.1'
   spec.dependency 'MyFrameworkMj'
  
 end

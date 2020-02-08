@@ -4,25 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CocoaLumberjack-iOS.xcscheme</key>
+		<key>MyFrameworkMj-iOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>0</integer>
 		</dict>
-		<key>CocoaLumberjack-macOS.xcscheme</key>
+		<key>MyFrameworkMj-macOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 		<key>Pods-ExMj-mac.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>Pods-ExMj_ios.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
