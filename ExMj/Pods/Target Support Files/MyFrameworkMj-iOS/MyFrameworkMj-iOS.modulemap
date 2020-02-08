@@ -1,6 +1,0 @@
-framework module MyFrameworkMj {
-  umbrella header "MyFrameworkMj-iOS-umbrella.h"
-
-  export *
-  module * { export * }
-}

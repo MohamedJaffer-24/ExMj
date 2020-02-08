@@ -6,12 +6,12 @@
 //
 
 import Foundation
-import MyFrameworkMj
+import Starscream
 
 public class Servers {
     
     public static func printer(){
-        Service.printer()
+        var l = StringHTTPHandler()
         print("FVFVGVGVG")
     }
 }
