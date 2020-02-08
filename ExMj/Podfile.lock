@@ -1,16 +1,18 @@
 PODS:
-  - MyFrameworkMj (0.0.8)
+  - CocoaLumberjack/Core (3.6.1)
+  - CocoaLumberjack/Swift (3.6.1):
+    - CocoaLumberjack/Core
 
 DEPENDENCIES:
-  - MyFrameworkMj
+  - CocoaLumberjack/Swift
 
 SPEC REPOS:
   trunk:
-    - MyFrameworkMj
+    - CocoaLumberjack
 
 SPEC CHECKSUMS:
-  MyFrameworkMj: ad55d72c875815a756b9e1051446adeacd4cccd6
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
 
-PODFILE CHECKSUM: 81809304ec206d1f368154e4fd9139c189443a26
+PODFILE CHECKSUM: 85d41049ec6aee1ed61e40b9d91f6b1ddf2c4bee
 
 COCOAPODS: 1.8.4

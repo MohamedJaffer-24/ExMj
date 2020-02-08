@@ -6,12 +6,12 @@
 //
 
 import Foundation
-import MyFrameworkMj
+import CocoaLumberjack
 
 public class Servers {
     
     public static func printer(){
-        Service.printer()
+        
         print("FVFVGVGVG")
     }
 }
