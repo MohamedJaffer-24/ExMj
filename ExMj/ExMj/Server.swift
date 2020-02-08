@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import CocoaLumberjack
+import Starscream
 public class Server {
     
     public static func printer(){
