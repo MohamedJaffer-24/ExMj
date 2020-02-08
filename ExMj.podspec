@@ -16,6 +16,7 @@ Pod::Spec.new do |spec|
  spec.source_files  = "ExMj/**/*.{swift,h}"
  
  spec.requires_arc = true
- spec.dependency 'CocoaLumberjack/Swift', '3.6.1'
-
+ # spec.dependency 'CocoaLumberjack/Swift', '3.6.1'
+ # spec.dependency 'Starscream'
+ 
 end

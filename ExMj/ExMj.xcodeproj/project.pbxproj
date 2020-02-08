@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		2FCFAA29F81422618BAE70BF /* Pods_ExMj_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EA10B9F23F598FF2F75209 /* Pods_ExMj_ios.framework */; };
 		A109D75723ED8B7A007DCB97 /* ExMj.h in Headers */ = {isa = PBXBuildFile; fileRef = A109D75523ED8B7A007DCB97 /* ExMj.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A109D76D23ED8CE6007DCB97 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = A109D76C23ED8CE6007DCB97 /* Server.swift */; };
-		A109D76E23ED8CE6007DCB97 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = A109D76C23ED8CE6007DCB97 /* Server.swift */; };
+		A109D76D23ED8CE6007DCB97 /* Servers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A109D76C23ED8CE6007DCB97 /* Servers.swift */; };
+		A109D76E23ED8CE6007DCB97 /* Servers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A109D76C23ED8CE6007DCB97 /* Servers.swift */; };
 		A109D76F23ED8DF4007DCB97 /* ExMj.h in Headers */ = {isa = PBXBuildFile; fileRef = A109D75523ED8B7A007DCB97 /* ExMj.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8610DA1CA1B8D51715DFA63 /* Pods_ExMj_mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CA090AE54442DE4393CB59 /* Pods_ExMj_mac.framework */; };
 /* End PBXBuildFile section */
@@ -24,7 +24,7 @@
 		A109D75523ED8B7A007DCB97 /* ExMj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExMj.h; sourceTree = "<group>"; };
 		A109D75623ED8B7A007DCB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A109D76023ED8B8A007DCB97 /* ExMj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExMj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A109D76C23ED8CE6007DCB97 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		A109D76C23ED8CE6007DCB97 /* Servers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servers.swift; sourceTree = "<group>"; };
 		B4EA10B9F23F598FF2F75209 /* Pods_ExMj_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExMj_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37B84C18579BF5F09AC9025 /* Pods-ExMj-mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExMj-mac.debug.xcconfig"; path = "Target Support Files/Pods-ExMj-mac/Pods-ExMj-mac.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				A109D75523ED8B7A007DCB97 /* ExMj.h */,
-				A109D76C23ED8CE6007DCB97 /* Server.swift */,
+				A109D76C23ED8CE6007DCB97 /* Servers.swift */,
 				A109D75623ED8B7A007DCB97 /* Info.plist */,
 			);
 			path = ExMj;
@@ -264,7 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A109D76D23ED8CE6007DCB97 /* Server.swift in Sources */,
+				A109D76D23ED8CE6007DCB97 /* Servers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A109D76E23ED8CE6007DCB97 /* Server.swift in Sources */,
+				A109D76E23ED8CE6007DCB97 /* Servers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

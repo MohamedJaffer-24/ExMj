@@ -7,7 +7,7 @@
 
 import Foundation
 import Starscream
-public class Server {
+public class Servers {
     
     public static func printer(){
         
