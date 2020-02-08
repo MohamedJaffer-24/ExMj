@@ -1,6 +1,0 @@
-framework module MyFrameworkMj {
-  umbrella header "MyFrameworkMj-umbrella.h"
-
-  export *
-  module * { export * }
-}

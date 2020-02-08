@@ -6,12 +6,11 @@
 //
 
 import Foundation
-import Starscream
-
+import CocoaLumberjack
 public class Servers {
     
     public static func printer(){
-        var l = StringHTTPHandler()
+        DDLogMessage()
         print("FVFVGVGVG")
     }
 }

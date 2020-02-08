@@ -6,7 +6,7 @@ target 'ExMj-mac' do
   use_frameworks!
 
   # Pods for ExMj-mac
-	pod 'Starscream'
+	pod 'CocoaLumberjack'
 end
 
 target 'ExMj_ios' do
@@ -14,5 +14,5 @@ target 'ExMj_ios' do
   use_frameworks!
 
   # Pods for ExMj_ios
-	pod 'Starscream'
+	pod 'CocoaLumberjack'
 end
