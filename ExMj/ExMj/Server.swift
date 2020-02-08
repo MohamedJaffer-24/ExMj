@@ -10,7 +10,7 @@ import CocoaLumberjack
 public class Server {
     
     public static func printer(){
-        DDLogWarn("CRCr")
+        
         print("FVFVGVGVG")
     }
 }

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
-  spec.name         = "PODSPEC"
-  spec.version      = "0.0.2"
+  spec.name         = "ExMj"
+  spec.version      = "0.0.3"
   spec.summary      = "A suummary to help"
   spec.swift_version = "5.2"
   spec.description  = <<-DESC
@@ -12,9 +12,9 @@ Pod::Spec.new do |spec|
   spec.author             = { "Jaffer" => "mohamedjaffersmj@gmail.com" }
    spec.ios.deployment_target = "8.0"
    spec.osx.deployment_target = "10.10"
-  spec.source       = { :git => 'https://github.com/MohamedJaffer-24/ExMj.git', :tag => '0.0.1' }
-  # spec.source_files  = "ExMj/**/*.{h,m,swift}"
- 
-   spec.dependency 'CocoaLumberjack', '3.6.1'
+  spec.source       = { :git => 'https://github.com/MohamedJaffer-24/ExMj.git', :tag => '0.0.3' }
+   spec.source_files  = "ExMj/**/*.{h,m,swift}"
+ spec.requires_arc = true
+   spec.dependency 'CocoaLumberjack/Swift', '3.6.1'
 
 end
