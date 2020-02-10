@@ -2,17 +2,23 @@ PODS:
   - CocoaLumberjack (3.6.1):
     - CocoaLumberjack/Core (= 3.6.1)
   - CocoaLumberjack/Core (3.6.1)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
 
 DEPENDENCIES:
   - CocoaLumberjack
+  - SQLite.swift (~> 0.12.0)
 
 SPEC REPOS:
   trunk:
     - CocoaLumberjack
+    - SQLite.swift
 
 SPEC CHECKSUMS:
   CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
 
-PODFILE CHECKSUM: 5a07462dd5fdc9274ae0841fee03d99df4f8fbb9
+PODFILE CHECKSUM: 1e21956eb5d101d95a4ad8ec2c52b194a6d33616
 
 COCOAPODS: 1.8.4

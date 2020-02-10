@@ -1,0 +1,6 @@
+framework module ExMj {
+  umbrella header "ExMj-umbrella.h"
+
+  export *
+  module * { export * }
+}

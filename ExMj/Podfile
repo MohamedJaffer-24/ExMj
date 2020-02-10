@@ -7,6 +7,7 @@ target 'ExMj-mac' do
 
   # Pods for ExMj-mac
 	pod 'CocoaLumberjack'
+	pod 'SQLite.swift', '~> 0.12.0'
 end
 
 target 'ExMj_ios' do
@@ -15,4 +16,5 @@ target 'ExMj_ios' do
 
   # Pods for ExMj_ios
 	pod 'CocoaLumberjack'
+	pod 'SQLite.swift', '~> 0.12.0'
 end
