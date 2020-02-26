@@ -7,8 +7,10 @@
 
 import Foundation
 import CocoaLumberjack
+import SQLite
+
 public class Servers {
-    
+    var conn : Connection!
     public static func printer(){
         _ = DDLogMessage()
         print("FVFVGVGVG")

@@ -14,5 +14,6 @@ public class Servers {
     public static func printer(){
         _ = DDLogMessage()
         print("FVFVGVGVG")
+        let bu = Bundle.main
     }
 }

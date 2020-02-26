@@ -2,11 +2,10 @@
 # platform :ios, '9.0'
 
 
-
 target 'testios' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for testios
-	pod 'ExMj', '0.0.1'
+	pod 'ExMj', '0.0.3'
 end

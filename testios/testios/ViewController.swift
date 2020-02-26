@@ -8,9 +8,9 @@
 
 import UIKit
 import ExMj
-
+import SQLite
 class ViewController: UIViewController {
-
+    var conn : Connection!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
