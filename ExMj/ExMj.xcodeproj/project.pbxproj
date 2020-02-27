@@ -17,6 +17,10 @@
 		A1FA15E42407C276007B6AD1 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA15E22407C276007B6AD1 /* CoreDataManager.swift */; };
 		A1FA15E72407C27E007B6AD1 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1FA15E52407C27E007B6AD1 /* Model.xcdatamodeld */; };
 		A1FA15E82407C27E007B6AD1 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1FA15E52407C27E007B6AD1 /* Model.xcdatamodeld */; };
+		A1FA15F12407D1BC007B6AD1 /* Fail+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA15EF2407D1BC007B6AD1 /* Fail+CoreDataProperties.swift */; };
+		A1FA15F22407D1BC007B6AD1 /* Fail+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA15EF2407D1BC007B6AD1 /* Fail+CoreDataProperties.swift */; };
+		A1FA15F32407D1BC007B6AD1 /* Fail+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA15F02407D1BC007B6AD1 /* Fail+CoreDataClass.swift */; };
+		A1FA15F42407D1BC007B6AD1 /* Fail+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA15F02407D1BC007B6AD1 /* Fail+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,8 @@
 		A109D76C23ED8CE6007DCB97 /* Servers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servers.swift; sourceTree = "<group>"; };
 		A1FA15E22407C276007B6AD1 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		A1FA15E62407C27E007B6AD1 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		A1FA15EF2407D1BC007B6AD1 /* Fail+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Fail+CoreDataProperties.swift"; path = "/Users/jaffer-pt3136/Documents/ExMj/ExMj/ExMj/Fail+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		A1FA15F02407D1BC007B6AD1 /* Fail+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Fail+CoreDataClass.swift"; path = "/Users/jaffer-pt3136/Documents/ExMj/ExMj/ExMj/Fail+CoreDataClass.swift"; sourceTree = "<absolute>"; };
 		D06B49CE0EC7BB48AFBA19FF /* Pods-ExMj_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExMj_ios.debug.xcconfig"; path = "Target Support Files/Pods-ExMj_ios/Pods-ExMj_ios.debug.xcconfig"; sourceTree = "<group>"; };
 		D51EA08FF6ABF4A39BE2DEAD /* Pods_ExMj_mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExMj_mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7726A649F621DA68853106F /* Pods-ExMj-mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExMj-mac.debug.xcconfig"; path = "Target Support Files/Pods-ExMj-mac/Pods-ExMj-mac.debug.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +94,8 @@
 		A109D76B23ED8CB3007DCB97 /* ExMj */ = {
 			isa = PBXGroup;
 			children = (
+				A1FA15F02407D1BC007B6AD1 /* Fail+CoreDataClass.swift */,
+				A1FA15EF2407D1BC007B6AD1 /* Fail+CoreDataProperties.swift */,
 				A109D75523ED8B7A007DCB97 /* ExMj.h */,
 				A109D76C23ED8CE6007DCB97 /* Servers.swift */,
 				A1FA15E22407C276007B6AD1 /* CoreDataManager.swift */,
@@ -275,6 +283,8 @@
 				A1FA15E32407C276007B6AD1 /* CoreDataManager.swift in Sources */,
 				A109D76D23ED8CE6007DCB97 /* Servers.swift in Sources */,
 				A1FA15E72407C27E007B6AD1 /* Model.xcdatamodeld in Sources */,
+				A1FA15F12407D1BC007B6AD1 /* Fail+CoreDataProperties.swift in Sources */,
+				A1FA15F32407D1BC007B6AD1 /* Fail+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +295,8 @@
 				A1FA15E42407C276007B6AD1 /* CoreDataManager.swift in Sources */,
 				A109D76E23ED8CE6007DCB97 /* Servers.swift in Sources */,
 				A1FA15E82407C27E007B6AD1 /* Model.xcdatamodeld in Sources */,
+				A1FA15F22407D1BC007B6AD1 /* Fail+CoreDataProperties.swift in Sources */,
+				A1FA15F42407D1BC007B6AD1 /* Fail+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

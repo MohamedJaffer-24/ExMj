@@ -12,12 +12,6 @@ import CoreData
 public class CoreDataManager {
     
 
-        @nonobjc public class func fetchRequest() -> NSFetchRequest<Fail> {
-            return NSFetchRequest<Fail>(entityName: "Fail")
-        }
-
-        @NSManaged public var name: String?
-
     private lazy var applicationDocumentsDirectory: URL = {
         // The directory the application uses to store the Core Data store file. This code uses a directory named in the application's documents Application Support directory.
         let urls = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
