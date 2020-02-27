@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49EDA127724E168369BB828A /* Pods_testios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C612440AF74F73D5716C5C /* Pods_testios.framework */; };
+		6A2FC3BEA5FF0C8C45EA559D /* Pods_testios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604C71498A1E24FEF289772 /* Pods_testios.framework */; };
 		A1E8D11823EF144F00AB8D5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E8D11723EF144F00AB8D5B /* AppDelegate.swift */; };
 		A1E8D11A23EF144F00AB8D5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E8D11923EF144F00AB8D5B /* SceneDelegate.swift */; };
 		A1E8D11C23EF144F00AB8D5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E8D11B23EF144F00AB8D5B /* ViewController.swift */; };
@@ -17,9 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		08C612440AF74F73D5716C5C /* Pods_testios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81783FC187D536F8BC20A411 /* Pods-testios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testios.debug.xcconfig"; path = "Target Support Files/Pods-testios/Pods-testios.debug.xcconfig"; sourceTree = "<group>"; };
-		A0FED6651697BA64328736C4 /* Pods-testios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testios.release.xcconfig"; path = "Target Support Files/Pods-testios/Pods-testios.release.xcconfig"; sourceTree = "<group>"; };
+		1B4F806B8DBD167AEAAD388D /* Pods-testios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testios.debug.xcconfig"; path = "Target Support Files/Pods-testios/Pods-testios.debug.xcconfig"; sourceTree = "<group>"; };
+		6604C71498A1E24FEF289772 /* Pods_testios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E8D11423EF144F00AB8D5B /* testios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E8D11723EF144F00AB8D5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1E8D11923EF144F00AB8D5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		A1E8D12023EF145000AB8D5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1E8D12323EF145000AB8D5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1E8D12523EF145000AB8D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9644C62D00BF21F40261905 /* Pods-testios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testios.release.xcconfig"; path = "Target Support Files/Pods-testios/Pods-testios.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49EDA127724E168369BB828A /* Pods_testios.framework in Frameworks */,
+				6A2FC3BEA5FF0C8C45EA559D /* Pods_testios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,18 +45,10 @@
 		1C19218AC6C40930D2C2D450 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				81783FC187D536F8BC20A411 /* Pods-testios.debug.xcconfig */,
-				A0FED6651697BA64328736C4 /* Pods-testios.release.xcconfig */,
+				1B4F806B8DBD167AEAAD388D /* Pods-testios.debug.xcconfig */,
+				E9644C62D00BF21F40261905 /* Pods-testios.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		8C5196959D56845F205FB522 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				08C612440AF74F73D5716C5C /* Pods_testios.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A1E8D10B23EF144F00AB8D5B = {
@@ -65,7 +57,7 @@
 				A1E8D11623EF144F00AB8D5B /* testios */,
 				A1E8D11523EF144F00AB8D5B /* Products */,
 				1C19218AC6C40930D2C2D450 /* Pods */,
-				8C5196959D56845F205FB522 /* Frameworks */,
+				E4E50837FCC82D99FC666672 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +83,14 @@
 			path = testios;
 			sourceTree = "<group>";
 		};
+		E4E50837FCC82D99FC666672 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6604C71498A1E24FEF289772 /* Pods_testios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -98,11 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1E8D12823EF145000AB8D5B /* Build configuration list for PBXNativeTarget "testios" */;
 			buildPhases = (
-				BD7A34535B1CBE640552CC22 /* [CP] Check Pods Manifest.lock */,
+				6C611FB0FDC70CC889BDD528 /* [CP] Check Pods Manifest.lock */,
 				A1E8D11023EF144F00AB8D5B /* Sources */,
 				A1E8D11123EF144F00AB8D5B /* Frameworks */,
 				A1E8D11223EF144F00AB8D5B /* Resources */,
-				3912DDD822020E32892AD8AD /* [CP] Embed Pods Frameworks */,
+				13488EFB820DA9548F46D27D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,7 +160,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3912DDD822020E32892AD8AD /* [CP] Embed Pods Frameworks */ = {
+		13488EFB820DA9548F46D27D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -177,7 +177,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testios/Pods-testios-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BD7A34535B1CBE640552CC22 /* [CP] Check Pods Manifest.lock */ = {
+		6C611FB0FDC70CC889BDD528 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -350,7 +350,7 @@
 		};
 		A1E8D12923EF145000AB8D5B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81783FC187D536F8BC20A411 /* Pods-testios.debug.xcconfig */;
+			baseConfigurationReference = 1B4F806B8DBD167AEAAD388D /* Pods-testios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -369,7 +369,7 @@
 		};
 		A1E8D12A23EF145000AB8D5B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0FED6651697BA64328736C4 /* Pods-testios.release.xcconfig */;
+			baseConfigurationReference = E9644C62D00BF21F40261905 /* Pods-testios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
