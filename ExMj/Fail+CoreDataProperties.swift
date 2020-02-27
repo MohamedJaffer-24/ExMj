@@ -1,6 +1,6 @@
 //
 //  Fail+CoreDataProperties.swift
-//  
+//  ExMj
 //
 //  Created by Mohamed Jaffer S on 27/02/20.
 //
