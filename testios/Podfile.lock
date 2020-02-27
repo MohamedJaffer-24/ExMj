@@ -2,7 +2,7 @@ PODS:
   - CocoaLumberjack/Core (3.6.1)
   - CocoaLumberjack/Swift (3.6.1):
     - CocoaLumberjack/Core
-  - ExMj (0.0.33):
+  - ExMj (0.0.34):
     - CocoaLumberjack/Swift (= 3.6.1)
     - SQLite.swift (~> 0.12.0)
   - SQLite.swift (0.12.2):
@@ -20,7 +20,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
-  ExMj: 8939f53781292404fd84f68a1c6a944df674efea
+  ExMj: bb0e4196ebfc2d55f2c6cfe5afd467c9444544ea
   SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
 
 PODFILE CHECKSUM: df24f2b37ef6d97878f801218af9e8a0711b2064
